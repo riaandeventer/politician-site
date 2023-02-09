@@ -1,0 +1,2 @@
+docker build --tag politician-site .
+docker run --publish 8000:8000 politician-site
