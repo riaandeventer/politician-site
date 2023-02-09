@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- use pip install django-crispy-forms in command for project -->
+{% load crispy_forms_tags %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Register</title>
+</head>
+<header class="masthead">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading" style="text-align: center">
+                    <h1 class="site-heading my-3 mt-2 text-white">Register</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <!--Register--> 
+    <div class="container">
+        <br>
+        <div class="row" style="text-align: left">
+            <h1> Register as User </h1>
+        </div>
+        <br> 
+	    <form method="POST" class="form-group">
+		    {% csrf_token %}
+		    {{ register_form|crispy }}                    
+		    <button type="submit" class="btn btn-primary">Register</button>
+	    </form>
+        {% if messages %}
+        <hr>
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        <hr>
+        {% endif %}
+        <br>
+	    <p class="text-center">If you already have an account, <a href="{% url 'user_auth:login' %}">Login</a> instead.</p>
+    </div>
+    <hr>
+</body>
+</html>
+{%endblock%}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+</head>
+<header class="masthead">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-8 col-md-10 mx-auto">
+                <div class="site-heading" style="text-align: center">
+                    <h1 class="site-heading my-3 mt-2 text-white">Login</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+    <div class="container">
+        <br>
+        <div class="row" style="text-align: left">
+            <h1> Login as User </h1>
+        </div>
+        <br>
+        <form method="post" action="{% url 'user_auth:authorize' %}">
+            {% csrf_token %}
+            <label>Username</label>
+            <input type="text" name="username" placeholder="User" required>
+            <br/><br/>
+            <label>Password</label>
+            <input type="password" name="password" required>
+            <br/><br/>
+            <input type="submit" value="Login" />
+        </form>
+        {% if messages %}
+        <hr>
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+        <hr>
+        {% endif %}
+        <br>
+        <p class="text-center">Don't have an account? <a href="{% url 'user_auth:register' %}">Create an account</a>.</p>
+    </div>
+    <hr>
+</body>
+</html>
+{%endblock%}
