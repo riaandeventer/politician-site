@@ -1,5 +1,5 @@
 # Lighter version of python
-FROM python:3.1-slim-buster
+FROM pypy:latest
 
 WORKDIR /app
 
