@@ -48,28 +48,28 @@ Use the built-in pip module to install PIP.
 This is so that you can use pip normally when installing packages.
 The command for this is:
 ```
-python -m pip install pip
+>python -m pip install pip
 ```
 The next thing is to install the package to enable virtual environments using:
 ```
-pip install virtualenv
+>pip install virtualenv
 ```
 There is a wrapper available to enable some handy commands such as mkvirtualenv and workon.
 More about these below. 
 
 Use the below command to implement the wrapper for Linux and MacOS.
 ```
-pip install virtualenvwrapper
+>pip install virtualenvwrapper
 ```
 If you have a windows machine, use the below command to implement the wrapper.
 ```
-pip install virtualenvwrapper-win
+>pip install virtualenvwrapper-win
 ```
 Now that we have virtual environments and handy commands set up with the wrapper, 
 we can set up the virtual environment. Let’s set up a virtual environment called my_django
 using the below command.
 ```
-mkvirtualenv my_django
+>mkvirtualenv my_django
 ```
 If this command worked, then you will notice the (my_django) in the beginning of the command line.
 
@@ -79,13 +79,13 @@ exist but it will not be activated.
 
 We use the following command to activate only if the virtual environment already exist:
 ```
-workon my_django
+>workon my_django
 ```
 Once again remember if this command worked, then you will notice the (my_django) in the beginning of the command line.
 
 Let's now install django in the virtual environment with the following command:
 ```
-pip install django
+>pip install django
 ```
 If we have installed Python correctly, the above should all work.
 
@@ -93,15 +93,30 @@ If we have installed Python correctly, the above should all work.
 
 Let's now install django in the virtual environment with the following command:
 ```
-pip install django
+>pip install django
 ```
-If we have installed Python correctly, the above should all work.
+If Python was installed correctly, the above should all work.
 
 ##### 1.5   Copying Files
 
-
+Go to the directory or folder where you want to install the project and enter the following command in the command line:
+```
+>git clone https://github.com/riaandeventer/politician-site
+```
+If you are asked for a login the it should be because you might have made a typing error with the link.
 
 ##### 1.6   Activate and Run Website
+
+If your files copied successfully, there should be a folder politician-site when you enter the >dir command.
+Go to this directory with below command.
+```
+>cd politician-site
+```
+Now we can activate the server with below command:
+```
+>python manage.py runserver
+```
+To see the site we need to go to our web browser and enter the following address: [http://localhost:8000](http://localhost:8000/)
 
 ### 2.  Implementing the website in a Docker environment.
 
