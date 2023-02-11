@@ -14,14 +14,14 @@ The website can be used by a political candidate. This website includes:
 
 ## Table of Content
 1.  Implementing the website in a Django virtual environment.
-1.1 Installing Python3
-1.2 Installing Pip
-1.3 Installing Django
-1.4 Copying Files
-1.5 Activate and Run Website
+*1.1 Installing Python3
+*1.2 Installing Pip
+*1.3 Installing Django
+*1.4 Copying Files
+*1.5 Activate and Run Website
              
 2.  Implementing the website in a Docker environment.
-4.  Authors
+3.  Authors
 
 ### Dependencies
 
