@@ -103,7 +103,7 @@ Go to the directory or folder where you want to install the project and enter th
 ```
 >git clone https://github.com/riaandeventer/politician-site
 ```
-If you are asked for a login the it should be because you might have made a typing error with the link.
+If you are asked for a login then it should be because you might have made a typing error with the link.
 
 ##### 1.6   Activate and Run Website
 
