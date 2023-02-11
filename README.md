@@ -205,7 +205,7 @@ in the world wide web.
 
 ### 3.  Sphinx Documentation
 
-For further documentation on the python modules, visit [Sphinx Documentation](
+For further documentation on the python modules, visit [Sphinx Documentation](./docs/_build/html/index.html).
 
 ### 4.  Authors
 
