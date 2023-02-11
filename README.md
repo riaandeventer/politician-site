@@ -195,7 +195,7 @@ click “add new instance”.
 **If you have used Docker Playground for Copying Files and Publishing the site to Docker Hub** then you can just continue with the following commands:
 
 ```
->docker run --publish 8000:8000 my_project
+>docker run --publish 8000:8000 [docker hub username without square brackets]/politician-site
 ```
 Docker on the VM will download your image from Docker Hub and do all the relevant preparations and installation to make your app work.
 
