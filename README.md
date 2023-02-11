@@ -14,53 +14,45 @@ The website can be used by a political candidate. This website includes:
 
 ## Table of Content
 1.  Implementing the website in a Django virtual environment.
-    - 1.1  Installing Python3
-    - 1.2  Installing Pip
-    - 1.3  Installing Django
-    - 1.4  Copying Files
-    - 1.5  Activate and Run Website
+    - 1.1   Dependencies
+    - 1.2   Installing Python3
+    - 1.3   Installing Pip
+    - 1.4   Installing Django
+    - 1.5   Copying Files
+    - 1.6   Activate and Run Website
              
 2.  Implementing the website in a Docker environment.
+    - 2.1   Creating a Docker account
+    - 2.2   Preparing Docker Playground
+    - 2.3   Copying Files
+    - 2.4   Activate and Run Website
+  
 3.  Authors
 
-### Dependencies
+### 1.  Implementing the website in a Django virtual environment.
 
-* This program uses the tabulate function and sqlite3.
+##### 1.1   Dependencies
 
-### Installation
+##### 1.2   Installing Python3
 
-* Create the executable from ebookstore.py and place in same folder as InventoryReset.txt
-* The file InventoryReset.txt contains the book data that you want to load initially. Update the information detail and note the format.
-* The program will read in this file through a menu option and the database with table will be created or updated if it already exists.
-* After initial load, you will notice the database file ebookstore_db in the folder.
-* Database is called ebookstore and a table called books. The table has the following structure:
+##### 1.3   Installing Pip
 
-|Id     | Title                                     | Author             | Qty  |
-|-------|-------------------------------------------|--------------------|------|
-|3001   | A Tale of Two Cities                      | Charles Dickens    | 30   |
-|3002   | Harry Potter and the Philosopher's Stone  | J.K. Rowling       | 40   |
-|3003   | The Lion, the Witch and the Wardrobe      | C. S. Lewis        | 25   |
-|3004   | The Lord of the Rings                     | J.R.R Tolkien      | 37   |
-|3005   | Alice in Wonderland                       | Lewis Carroll      | 12   |
+##### 1.4   Installing Django
 
-### Executing Program
+##### 1.5   Copying Files
 
-* Run the program
-* You will see the menu.
+##### 1.6   Activate and Run Website
 
-![Main Menu](/images/1.jpg)
+### 2.  Implementing the website in a Docker environment.
 
-* Menu Option 6: Start here to load the database or reset it in the future.
-* Menu Option 1: This will straight display all the books in the inventory.
-* Menu Option 2: This will request an identification number for the book, then book title, author and quantity you have available.
-* Menu Option 3: You need the id of a book to update the title, author or quantity available. Use Menu Option 1 to get id number.
-* Menu Option 4: Remove a book from you inventory by providing the id of the book. Use Menu Option 1 to get the id number.
-* Menu Option 5: Search for books with below menu.
+##### 2.1   Creating a Docker account
 
-![Main Menu](/images/2.jpg)
+##### 2.2   Preparing Docker Playground
 
-* Menu Option 5: With submenu option 4 you can search for books with stock less than a certain number.
+##### 2.3   Copying Files
 
-## Authors
+##### 2.4   Activate and Run Website
+
+### 3.  Authors
 
 Riaan Deventer  - [@riaandeventer](https://twitter.com/riaandeventer)
