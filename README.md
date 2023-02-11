@@ -61,7 +61,7 @@ pip install virtualenvwrapper-win
 ```
 mkvirtualenv my_django
 ```
-Now let's install django
+Let's install django
 ```
 pip install django
 ```
