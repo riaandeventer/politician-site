@@ -33,9 +33,38 @@ The website can be used by a political candidate. This website includes:
 
 ##### 1.1   Dependencies
 
+The Django virtual environment requires the installation of python, pip and django.
+
 ##### 1.2   Installing Python3
 
-##### 1.3   Installing Pip
+Download the lates Python version for your system at [Python.org](https://www.python.org/downloads/) and follow the instructions for installation.  Make sure that you
+answer yes when you are ask if you want to include Python in the PATH.
+
+##### 1.3   Installing Pip and your virtual environment
+
+Open your command prompt and enter the following commands:
+
+Let's install pip.
+'''
+python -m pip install pip
+'''
+Now we will create the virtual environment.
+'''
+pip install virtualenv
+'''
+'''
+pip install virtualenvwrapper
+'''
+'''
+pip install virtualenvwrapper-win
+'''
+'''
+mkvirtualenv my_django
+'''
+Now let's install django
+'''
+pip install django
+'''
 
 ##### 1.4   Installing Django
 
