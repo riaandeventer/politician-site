@@ -1,20 +1,27 @@
-# politician-site
-# Bookstore Management Program
+# Political Candidate Website
 
-This program helps the clerk in the bookstore to keep track of the books in the store.
+This website has a political candidate theme and includes a blog and a VIP area with login access.
 
 ## Description
 
-The management program can be used by a bookstore clerk. The program allows the clerk to:
-* add new books to the database
-* update book information
-* delete books from the database
-* search the database to find a specific book.
+The website can be used by a political candidate. This website includes:
+* home page for candidate overview and email list sign up,
+* about page for more detail regarding candidate, candidate mission and what other people say,
+* programs page for showing what programs the candidate promotes, 
+* blog page for candidate influence,
+* vip login area where candidate can provide special value for registered members and
+* contact page to communicate with candidate staff.
 
 ## Table of Content
-1. Installation
-2. Executing Program
-3. Authors
+1.  Implementing the website in a Django virtual environment.
+    1.1 Installing Python3
+    1.2 Installing Pip
+    1.3 Installing Django
+    1.4 Copying Files
+    1.5 Activate and Run Website
+             
+2.  Implementing the website in a Docker environment.
+4.  Authors
 
 ### Dependencies
 
