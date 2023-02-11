@@ -44,31 +44,62 @@ answer yes when you are ask if you want to include Python in the PATH.
 
 Open your command prompt and enter the following commands:
 
-Let's install pip.
+Use the built-in pip module to install PIP.
+This is so that you can use pip normally when installing packages.
+The command for this is:
 ```
 python -m pip install pip
 ```
-Now we will create the virtual environment.
+The next thing is to install the package to enable virtual environments using:
 ```
 pip install virtualenv
 ```
+There is a wrapper available to enable some handy commands such as mkvirtualenv and workon.
+More about these below. 
+
+Use the below command to implement the wrapper for Linux and MacOS.
 ```
 pip install virtualenvwrapper
 ```
+If you have a windows machine, use the below command to implement the wrapper.
 ```
 pip install virtualenvwrapper-win
 ```
+Now that we have virtual environments and handy commands set up with the wrapper, 
+we can set up the virtual environment. Let’s set up a virtual environment called my_django
+using the below command.
 ```
 mkvirtualenv my_django
 ```
-Let's install django
+If this command worked, then you will notice the (my_django) in the beginning of the command line.
+
+When we use the mkvirtualenv command, this creates and activates the virtual environment.
+Next time if you have closed the command prompt window, the virtual environment will still 
+exist but it will not be activated.
+
+We use the following command to activate only if the virtual environment already exist:
+```
+workon my_django
+```
+Once again remember if this command worked, then you will notice the (my_django) in the beginning of the command line.
+
+Let's now install django in the virtual environment with the following command:
 ```
 pip install django
 ```
+If we have installed Python correctly, the above should all work.
 
 ##### 1.4   Installing Django
 
+Let's now install django in the virtual environment with the following command:
+```
+pip install django
+```
+If we have installed Python correctly, the above should all work.
+
 ##### 1.5   Copying Files
+
+
 
 ##### 1.6   Activate and Run Website
 
