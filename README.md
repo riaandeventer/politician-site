@@ -38,7 +38,7 @@ The Django virtual environment requires the installation of python, pip and djan
 ##### 1.2   Installing Python3
 
 Download the lates Python version for your system at [Python.org](https://www.python.org/downloads/) and follow the instructions for installation.  Make sure that you
-answer yes when you are ask if you want to include Python in the PATH.
+answer yes when you are asked if you want to include Python in the PATH.
 
 ##### 1.3   Installing Pip and your virtual environment
 
