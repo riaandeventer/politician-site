@@ -45,26 +45,26 @@ answer yes when you are ask if you want to include Python in the PATH.
 Open your command prompt and enter the following commands:
 
 Let's install pip.
-'''
+```
 python -m pip install pip
-'''
+```
 Now we will create the virtual environment.
-'''
+```
 pip install virtualenv
-'''
-'''
+```
+```
 pip install virtualenvwrapper
-'''
-'''
+```
+```
 pip install virtualenvwrapper-win
-'''
-'''
+```
+```
 mkvirtualenv my_django
-'''
+```
 Now let's install django
-'''
+```
 pip install django
-'''
+```
 
 ##### 1.4   Installing Django
 
