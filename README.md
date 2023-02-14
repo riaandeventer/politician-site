@@ -22,7 +22,7 @@ The website can be used by a political candidate. This website includes:
     - 1.6   Activate and Run Website
              
 2.  Implementing the website in a Docker environment.
-    - 2.1   Creating a Docker ub account
+    - 2.1   Creating a Docker Hub account
     - 2.2   Prepare the Docker Environment
     - 2.3   Copying Files and Publishing the Site to Docker Hub
     - 2.4   Activate and Run Website
