@@ -209,4 +209,4 @@ For further documentation on the python modules, visit [Sphinx Documentation](./
 
 ### 4.  Authors
 
-Riaan Deventer  - [@riaandeventer](https://twitter.com/riaandeventer)
+Riaan Deventer  - [LinkedIn: @riaandeventer](https://www.linkedin.com/in/riaandeventer/)
