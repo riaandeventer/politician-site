@@ -1,6 +1,6 @@
 # Political Candidate Website
 
-This website has a political candidate theme and includes a blog and a VIP area with login access.
+This website is for a political candidate and includes a projects, blog and a VIP area with login access.
 
 ## Description
 
